@@ -1,0 +1,29 @@
+{
+	"geode": "5.1.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "magneticprism.prismapi",
+	"name": "PrismAPI",
+	"version": "v1.0.0",
+	"developer": "MagneticPrism",
+	"description": "A API for user MagneticPrism's mods.",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"api": {
+        "include": [
+            "include/*.hpp"
+        ]
+    },
+	"links": {
+		"community": "https://discord.gg/tzWNkKK4t7",
+		"source": "https://github.com/DotPrism/PrismAPI"
+	},
+	"tags": [
+        "developer", "utility", "offline", "api"
+    ]
+}
